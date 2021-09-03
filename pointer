@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	int i=8;
+	
+	int *p=&i;
+	
+	// printf("%p", p);       ------> bellekteki adresi veriyor.
+
+    printf("%d", *p);	// bellekteki i ye kayıtlı sayıyı veriyor. yani 8 
+	
+	return 0;
+}
